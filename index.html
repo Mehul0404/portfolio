@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mehul Mehendiratta | Junior Developer</title>
+  <meta name="description" content="Junior developer who also runs live events. C#, .NET, web and data.">
+  <!-- Fonts from Google Fonts (free) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <a class="logo" href="#home">Mehul.M.R</a>
+    <nav>
+      <a href="#runsheet">Experience</a>
+      <a href="#stack">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <!-- HERO: name on the left, "ticket" on the right -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>I write code and run live events.</h1>
+        <p>I'm Mehul, a BCA (Data Science) student from Palwal. I build with C# and .NET, and I coordinate college and corporate events. I'm looking for my first Junior Developer role.</p>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+
+      <aside class="ticket" aria-label="Summary">
+        <p class="ticket-title">Admit one: Junior Developer</p>
+        <dl>
+          <dt>Name</dt><dd>Mehul Mehendiratta</dd>
+          <dt>Stack</dt><dd>C#, .NET, ADO.NET, HTML, CSS, JavaScript</dd>
+          <dt>Based in</dt><dd>Palwal, Haryana</dd>
+          <dt>Languages</dt><dd>English, Hindi, Punjabi</dd>
+          <dt>Available</dt><dd>Immediately</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <!-- EXPERIENCE: laid out like an event run sheet (time on the left) -->
+    <section id="runsheet">
+      <h2>Run sheet</h2>
+      <p class="lead">Where I've worked and led so far.</p>
+      <ol class="sheet">
+        <li>
+          <span class="time">2026 to now</span>
+          <div>
+            <h3>Freelance Corporate Events Coordinator</h3>
+            <p>Plan and deliver corporate events with clients, vendors and teams, on time.</p>
+          </div>
+        </li>
+        <li>
+          <span class="time">2024 to now</span>
+          <div>
+            <h3>College Events Coordinator, NGFCET</h3>
+            <p>Plan and run college events with students, faculty and organisers.</p>
+          </div>
+        </li>
+        <li>
+          <span class="time">[2023-2025]</span>
+          <div>
+            <h3>General Secretary, NGFCET</h3>
+            <p>Led a team and handled coordination, communication and presentations.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="stack">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Build</h3>
+          <ul class="chips"><li>C#</li><li>.NET</li><li>ADO.NET</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </div>
+        <div>
+          <h3>Analyse</h3>
+          <ul class="chips"><li>Data analysis basics</li><li>Data science (BCA)</li></ul>
+        </div>
+        <div>
+          <h3>Lead</h3>
+          <ul class="chips"><li>Team coordination</li><li>Presenting</li><li>Problem solving</li><li>Writing and editing</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive portfolio with a contact form check and a copy-email button.</p>
+          <p class="tools">Tools: HTML, CSS, JavaScript</p>
+          <a href="#">Code on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="lead">Hiring for a junior role or an event? Write to me.</p>
+      <form id="contact-form" novalidate>
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <p id="form-status" role="status"></p>
+        <button class="btn" type="submit">Send by email</button>
+      </form>
+      <p class="direct">Or call 8950313632 or email
+        <a href="mailto:mehulmehendiratta422@gmail.com">mehulmehendiratta422@gmail.com</a>
+        <button id="copy-email" class="link-btn" type="button">Copy email</button>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Mehul Mehendiratta, Palwal, Haryana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
